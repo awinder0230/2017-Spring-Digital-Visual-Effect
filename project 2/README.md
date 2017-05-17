@@ -31,6 +31,7 @@ Image stitching is useful when creating an image with larger field of view (FOV)
 - Line 2: file_name_of_first_input_image space focal_length_of_this_input_image
 - …
 - Line N+1: file_name_of_Nth_input_image space focal_length_of_this_input_image
+
 Note that the first input image must be the one that you hope to be the leftmost image in your panorama.
 
 3. Change directory to /src, open main.m with Matlab and run.
