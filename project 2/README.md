@@ -25,6 +25,7 @@ Image stitching is useful when creating an image with larger field of view (FOV)
 ## Usage
 
 1. Clone from [here](https://github.com/awinder0230/2017-Spring-Digital-Visual-Effect) if you do not have our codes.
+
 2.Change directory to input_image, put your input images inside as well as a txt file with the format as following:
 - Line 1: <number of input images>
 - Line 2: <file name of first input image> <space> <focal length of this input image>
