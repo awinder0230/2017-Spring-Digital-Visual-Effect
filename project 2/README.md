@@ -27,10 +27,10 @@ Image stitching is useful when creating an image with larger field of view (FOV)
 1. Clone from [here](https://github.com/awinder0230/2017-Spring-Digital-Visual-Effect) if you do not have our codes.
 
 2. Change directory to input_image, put your input images inside as well as a txt file with the format as following:
-- Line 1: &it number of input images &gt
-- Line 2: <file name of first input image> <space> <focal length of this input image>
+- Line 1: # of input images 
+- Line 2: file_name_of_first_input_image space focal_length_of_this_input_image
 - …
-- Line N+1: <file name of Nth input image> <space> <focal length of this input image>
+- Line N+1: file_name_of_Nth_input_image space focal_length_of_this_input_image
 Note that the first input image must be the one that you hope to be the leftmost image in your panorama.
 
 3. Change directory to /src, open main.m with Matlab and run.
