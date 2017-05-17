@@ -1,6 +1,6 @@
 %% read in images
 tic
-file_directory = './input_image1/';
+file_directory = '../input_image/';
 fprintf(['\nUsing file: ' file_directory ' ...'])
 fid = fopen( [file_directory 'focal_length.txt'], 'r');
 image_num = str2double(fgets(fid));                         % read in first line
@@ -82,9 +82,10 @@ toc
 %images_out2 = seam_carving(images_out2);
 %figure(1)
 %imshow(uint8(linear));
-figure(2)
+figure(1)
 imshow(uint8(multiband));
 fprintf('\nOutput Images...\n')
-imwrite(uint8(linear), 'linear.jpg')
-imwrite(uint8(multiband), 'multiband.jpg')
+cd('../result/')
+%imwrite(uint8(linear), 'linear.jpg')
+imwrite(uint8(multiband), 'result.bmp')
 
